@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                        // Целевая версия ECMAScript
+    "module": "CommonJS",                    // Модульная система для Node.js
+    "declaration": true,                     // Генерация .d.ts файлов для типов
+    "outDir": "./dist",                      // Директория для выходных файлов
+    "strict": true,                          // Включить строгий режим
+    "esModuleInterop": true,                 // Совместимость с модулями ES
+    "skipLibCheck": true,                    // Пропустить проверку типов внутри node_modules
+    "forceConsistentCasingInFileNames": true // Обеспечение согласованности регистра
+  },
+  "include": ["src"],                         // Включить все файлы из директории src
+  "exclude": ["node_modules", "dist"]         // Исключить node_modules и выходные файлы
+}
